@@ -8,19 +8,19 @@
 
 ```
 open-data-version-control/
-├── notebooks/              # Notebooks for data, EDA, training, inference
-├── src/                    # Modular code
-│   ├── model_code/         # train.py, inference.py
-│   ├── utils/              # preprocessing, evaluation
-│   └── tests/              # unit tests
-├── data/                   # Datasets (ignored in Git)
-├── models/                 # Saved models (ignored in Git)
-├── .gitignore
-├── pyproject.toml
-├── poetry.lock
-├── README.md
-├── pytest.ini
-└── .vscode/settings.json   # VSCode config (optional)
+├── notebooks/                  # Notebooks for EDA, model training, inference
+├── src/                        # All source code and assets
+│   ├── data/                   # Input datasets (ignored in Git)
+│   ├── models/                 # Trained/saved models (ignored in Git)
+│   ├── model_code/             # Core ML code: train.py, inference.py
+│   ├── utils/                  # Reusable utilities: preprocessing, metrics
+│   └── tests/                  # Unit tests for all components
+├── .gitignore                  # Ignore data/, models/, __pycache__, etc.
+├── pyproject.toml              # Project metadata & dependencies (Poetry)
+├── poetry.lock                 # Locked dependency versions
+├── pytest.ini                  # Pytest config
+├── README.md                   # Project overview and instructions
+└── .vscode/settings.json       # Optional VSCode workspace settings
 ```
 
 ---
