@@ -85,7 +85,7 @@ Select `python_310` kernel inside your notebooks.
    jupyter notebook notebooks/inference.ipynb
    ```
 
-5. **Check model + prediction outputs in `/models` and `data/iris_redictions.csv`**
+5. **Check model + prediction outputs in `/models` and `data/iris_predictions.csv`**
 
 ---
 
